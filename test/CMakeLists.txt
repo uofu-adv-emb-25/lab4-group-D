@@ -1,4 +1,4 @@
-add_executable(mytest test_signal.c unity_config.c ../src/signaling.c)
+add_executable(mytest test_fifo.c unity_config.c ../src/fifo.c)
 
 target_link_libraries(mytest PRIVATE
   pico_stdlib
